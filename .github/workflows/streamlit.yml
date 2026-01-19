@@ -33,7 +33,7 @@ jobs:
     needs: build-and-test
     runs-on: ubuntu-latest
     steps:
-      # Step 1
+      # Step1
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v3
         with:
